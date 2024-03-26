@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    		
 	<string-array name="pref_overlay_intensity_options">
 		<item>1</item>
 		<item>2</item>
@@ -27,11 +26,11 @@
 	</string-array>    
 
 	<string-array name="pref_scaleMode_options">
-		<item>Scale (keep aspect ratio)</item>	
-		<item>Stretch to fit screen</item>	    
-		<item>Original Size</item>
-		<item>Scale (integer scaling fit to screen)</item>
-		<item>Scale (integer scaling beyond bounds)</item>				
+		<item>缩放(保持纵横比)</item>	
+		<item>拉伸以适应屏幕</item>	    
+		<item>原始尺寸</item>
+		<item>缩放(适合屏幕的整数缩放)</item>
+		<item>缩放(超出界限的整数缩放)</item>				
 		<item>1.5X</item>		
 		<item>2X</item>
 		<item>2.5X</item>
@@ -39,9 +38,9 @@
 		<item>3.5X</item>
 		<item>4X</item>
 		<item>4.5X</item>
-        <item>5X</item>	
+		<item>5X</item>	
 		<item>5.5X</item>
-        <item>6X</item>	        							
+		<item>6X</item>	        							
 	</string-array>
 	<string-array name="pref_scaleMode_values">
 		<item>1</item>	
@@ -62,8 +61,8 @@
 	</string-array>
 	
 	<string-array name="pref_global_video_render_options">
-		<item>SW (compatibility)</item>
-		<item>GL (faster)</item>
+		<item>SW(兼容性)</item>
+		<item>GL(快速)</item>
 	</string-array>
 	<string-array name="pref_global_video_render_values">
 		<item>1</item>
@@ -71,10 +70,10 @@
 	</string-array>
 
 	<string-array name="pref_controller_type_options">
-		<item>Digital DPAD</item>
-        <item>Digital Stick</item>		
-		<item>Analog-Digital (performance)</item>
-		<item>Analog-Digital (pretty)</item>
+		<item>数字DPAD</item>
+		<item>数字棒</item>		
+		<item>模拟数字(性能)</item>
+		<item>模拟数字(精致)</item>
 	</string-array>
 	<string-array name="pref_controller_type_values">
 		<item>1</item>
@@ -84,10 +83,10 @@
 	</string-array>
 	
 	<string-array name="pref_input_external_options">
-		<item>General Multi Controller</item>
-		<item>Controller Autodetection</item>	
-		<item>Original iCade</item>
-		<item>iCP, Gametel or iCade compatible</item>
+		<item>通用多控制器</item>
+		<item>自动检测控制器</item>	
+		<item>原始iCade</item>
+		<item>ICP、Gametel或iCade兼容</item>
 	</string-array>
 	<string-array name="pref_input_external_values">
 		<item>1</item>
@@ -97,11 +96,11 @@
 	</string-array>
 	
 	<string-array name="pref_dz_options">
-		<item>None</item>
-		<item>Low</item>
-		<item>Normal</item>
-		<item>High</item>
-		<item>Very high</item>		
+		<item>没有</item>
+		<item>低</item>
+		<item>普通</item>
+		<item>高</item>
+		<item>很高</item>		
 	</string-array>
 	<string-array name="pref_dz_values">
 		<item>1</item>
@@ -112,8 +111,8 @@
 	</string-array>	
 	
 	<string-array name="pref_frameskip_options">
-		<item>Auto</item>
-		<item>None</item>
+		<item>自动</item>
+		<item>没有</item>
 		<item>1</item>
 		<item>2</item>
 		<item>3</item>
@@ -141,7 +140,7 @@
 	</string-array>	
 	
 	<string-array name="pref_sound_options">
-		<item>Off</item>
+		<item>关闭</item>
 		<item>On (11 KHz)</item>
 		<item>On (22 Khz)</item>
 		<item>On (33 Khz)</item>
@@ -158,31 +157,31 @@
 	</string-array>
 	
 	<string-array name="pref_stick_options">
-	    <item>Auto</item> 
+		<item>自动</item> 
 		<item>2-way</item>
 		<item>4-way</item>
 		<item>8-way</item>		
 	</string-array>
 	<string-array name="pref_stick_values">
-	    <item>-1</item> 
+		<item>-1</item> 
 		<item>2</item>
 		<item>4</item>
 		<item>8</item>
 	</string-array>	
 		
 	<string-array name="pref_numbuttons_options">
-	    <item>Auto (heuristic)</item>
-	    <item>0 buttons</item>
-	    <item>1 buttons</item>
-		<item>2 buttons</item>
-		<item>3 buttons (C=A+B)</item>
-		<item>3 buttons</item>
-		<item>4 buttons</item>
-		<item>All buttons</item>		
+		<item>自动(启发式)</item>
+		<item>0按钮</item>
+		<item>1按钮</item>
+		<item>2按钮</item>
+		<item>3按钮(C=A+B)</item>
+		<item>3按钮</item>
+		<item>4按钮</item>
+		<item>所有按钮</item>		
 	</string-array>
 	<string-array name="pref_numbuttons_values">
-	    <item>-1</item>
-	    <item>0</item>
+		<item>-1</item>
+		<item>0</item>
 		<item>1</item>
 		<item>2</item>
 		<item>33</item>
@@ -193,7 +192,7 @@
 			   
 	<string-array name="pref_resolution_options">
 		<item>320x200 (16/10)</item>
-	    <item>320x240 (4/3)</item>
+		<item>320x240 (4/3)</item>
 		<item>400x300 (4/3)</item>	
 		<item>480x300 (16/10)</item>
 		<item>512x384 (4/3)</item>
@@ -224,16 +223,16 @@
 		<item>12</item>
 		<item>13</item>
 		<item>14</item>		
-        <item>15</item>
-        <item>16</item>	        
+		<item>15</item>
+		<item>16</item>	        
 	</string-array>
 
     <string-array name="pref_buttons_size_options">
-        <item>Smaller</item>
-	    <item>Small</item>
-		<item>Normal</item>
-	    <item>Big</item>
-	    <item>Bigger</item>					
+		<item>更小</item>
+		<item>小</item>
+		<item>普通</item>
+		<item>大</item>
+		<item>更大</item>					
 	</string-array>
 	<string-array name="pref_buttons_size_values">
 		<item>1</item>
@@ -244,9 +243,9 @@
 	</string-array>
 		
 	<string-array name="pref_low_norm_or_hight_options">
-	    <item>Low</item>
-		<item>Normal</item>
-	    <item>Hight</item>					
+		<item>低</item>
+		<item>普通</item>
+		<item>高</item>					
 	</string-array>
 	<string-array name="pref_low_norm_or_hight_values">
 		<item>1</item>
@@ -255,16 +254,16 @@
 	</string-array>
 	
 	<string-array name="pref_sound_engine_options">
-	    <item>AudioTrack</item>
-		<item>AudioTrack high latency (safe)</item>
-	    <item>OpenSL</item>
-        <item>OpenSL low latency (best)</item>
+		<item>AudioTrack</item>
+		<item>AudioTrack高延迟(安全)</item>
+		<item>OpenSL</item>
+		<item>OpenSL低延迟(最佳)</item>
 	</string-array>
 	<string-array name="pref_sound_engine_values">
 		<item>1</item>
 		<item>2</item>
 		<item>3</item>
-        <item>4</item>																							
+		<item>4</item>																							
 	</string-array>	
 		
 	<string-array name="pref_speed_options">
@@ -307,10 +306,10 @@
 	</string-array>	
 	
 	<string-array name="pref_autofire_options">
-	    <item>Disabled</item>
+		<item>禁用</item>
 		<item>Speed 1</item>
 		<item>Speed 2</item>		
-	    <item>Speed 3</item>
+		<item>Speed 3</item>
 		<item>Speed 4</item>
 		<item>Speed 5</item>			
 		<item>Speed 6</item>
@@ -332,8 +331,8 @@
 	</string-array>	
 	
 	<string-array name="pref_vsync_options">
-	    <item>Game-reported</item>
-	    <item>OS-reported</item>	            		
+		<item>游戏报告</item>
+		<item>系统报告</item>	            		
 		<item>60HZ</item>		
 		<item>59Hz</item>
 		<item>58Hz</item>
@@ -356,12 +355,12 @@
 	</string-array>	
 	
    <string-array name="pref_automap_options">
-	    <item>Thumbs disabled and L2,R2 as L1,R1</item>
-		<item>Thumbs as Coin,Start and L2,R2 as L1,R1</item>
-		<item>Thumbs as Coin,Start and L2,R2 disabled</item>		
-		<item>Thumbs disabled and L2,R2 as Coin,Start</item>
-		<item>L1,R1 as Coin,Start and L2,R2 as L1,R1</item>		
-		<item>L1,R1 as MENU,EXIT and L2,R2 as L1,R1</item>																	
+		<item>拇指禁用，L2、R2为L1、R1</item>
+		<item>拇指作为硬币，开始和L2，R2作为L1，R1</item>
+		<item>拇指作为硬币，启动和L2，R2禁用</item>		
+		<item>拇指禁用，L2、R2为硬币，启动</item>
+		<item>L1，R1作为硬币，开始和L2，R2作为L1，R1</item>		
+		<item>L1，R1为菜单，退出，L2，R2为L1，R1</item>																	
 	</string-array>
 	
 	<string-array name="pref_automap_values">
@@ -374,16 +373,16 @@
 	</string-array>	
 	
     <string-array name="pref_tilt_neutralz_options">
-	    <item>90  degrees</item>
-		<item>80 degrees</item>
-		<item>70 degrees</item>
-		<item>60 degrees</item>
-		<item>50 degrees</item>
-        <item>45 degrees</item>		
-        <item>40 degrees</item>
-		<item>30 degrees</item>
-		<item>20 degrees</item>
-		<item>10 degrees</item>																		
+		<item>90度</item>
+		<item>80度</item>
+		<item>70度</item>
+		<item>60度</item>
+		<item>50度</item>
+		<item>45度</item>		
+		<item>40度</item>
+		<item>30度</item>
+		<item>20度</item>
+		<item>10度</item>																		
 	</string-array>
 	
 	<string-array name="pref_tilt_neutralz_values">
@@ -400,11 +399,9 @@
 	</string-array>	
 	
     <string-array name="pref_px_options">
-	    <item>MAME (original arcade)</item>
-		<item>Forced pixel aspect(and resolution)</item>
-		 
-		<item>Forced pixel aspect (smart, fixed resolution)</item>
-																				
+		<item>街机</item>
+		<item>强制像素纵横比(和分辨率)</item>
+		<item>强制像素的(智能，固定分辨率)</item>																	
 	</string-array>
 	
 	<string-array name="pref_px_values">
@@ -414,18 +411,18 @@
 	</string-array>		
 
 	<string-array name="mode_items">
-		<item>Wi-Fi direct</item>
+		<item>Wi-Fi直连</item>
 		<item>Wi-Fi</item>																											
 	</string-array>		
 	
     <string-array name="pref_netplay_delay_options">
-	    <item>Auto (experimental, at your risk)</item>
-		<item>1 (low input latency 5Ghz WIFI needed)</item>
-		<item>2 (recommended)</item>
-		<item>3 (bad connection or 2.4Ghz WIFI)</item>
-		<item>4 (if very bad connection)</item>
-        <item>5 (high input latency but..)</item>
-        <item>6 (Are you sure?)</item>
+		<item>自动(实验性，风险自负)</item>
+		<item>1(需要低输入延迟5Ghz WIFI)</item>
+		<item>2(推荐)</item>
+		<item>3(连接不良或2.4Ghz WIFI)</item>
+		<item>4(如果连接非常糟糕)</item>
+		<item>5(输入延迟高，但..)</item>
+		<item>6(你确定吗?)</item>
 		<item>7</item>
 		<item>8</item>
 		<item>9</item>																		
@@ -445,9 +442,9 @@
 	</string-array>		
 	
     <string-array name="pref_navbar_options">
-	    <item>Visible</item>
-		<item>Dimm or hide (lower than kitkat)</item>
-		<item>Immersive mode </item>																
+		<item>显示</item>
+		<item>调光或隐藏(低于kitkat)</item>
+		<item>沉浸式模式</item>																
 	</string-array>
 	
 	<string-array name="pref_navbar_values">
@@ -457,7 +454,7 @@
 	</string-array>		
 
 	<string-array name="pref_image_effect_options">
-	    <item>None</item>
+		<item>没有</item>
 		<item>HQ2x</item>
 		<item>HQ3x</item>
         <item>HQ4x</item>																		
@@ -471,9 +468,9 @@
 	</string-array>
 
 	<string-array name="pref_touch_lightgun_options">
-	    <item>Auto</item>
-		<item>Disabled</item>
-		<item>Enabled</item>																		
+		<item>自动</item>
+		<item>禁用</item>
+		<item>启动</item>																		
 	</string-array>
 	
 	<string-array name="pref_touch_lightgun_values">
@@ -484,54 +481,52 @@
 	
 
 	<string-array name="pref_bios_options">
-		<item>Default (recommended)</item>
-		<item>Europe MVS (Ver. 2)</item>
-		<item>Europe MVS (Ver. 1)</item>
-	    <item>US MVS (Ver. 2?)</item>
-		<item>US MVS (Ver. 1)</item>
-		<item>Asia MVS (Ver. 3)</item>
-	    <item>Japan MVS (Ver. 3)</item>
-		<item>Japan MVS (Ver. 2)</item>
-		<item>Japan MVS (Ver. 1)</item>
-	    <item>NEO-MVH MV1C</item>
-		<item>Japan MVS (J3)</item>
-		<item>Custom Japanese Hotel</item>
-	    <item>Universe Bios (Hack, Ver. 2.3)</item>
-		<item>Universe Bios (Hack, Ver. 2.3, older?)</item>
-		<item>Universe Bios (Hack, Ver. 2.2)</item>
-		<item>Universe Bios (Hack, Ver. 2.1)</item>
-		<item>Universe Bios (Hack, Ver. 2.0)</item>
-	    <item>Universe Bios (Hack, Ver. 1.3)</item>
-		<item>Universe Bios (Hack, Ver. 1.2)</item>
-		<item>Universe Bios (Hack, Ver. 1.2, older)</item>
-		<item>Universe Bios (Hack, Ver. 1.1)</item>
-		<item>Universe Bios (Hack, Ver. 1.0)</item>							
+		<item>默认(推荐)</item>
+		<item>欧洲MVS(第2版)</item>
+		<item>欧洲MVS(第1版)</item>
+		<item>美国MVS(第2版)</item>
+		<item>美国MVS(第1版)</item>
+		<item>亚洲MVS(第3版)</item>
+		<item>日本MVS(第3版)</item>
+		<item>日本MVS(第2版)</item>
+		<item>日本MVS(第1版)</item>
+		<item>NEO-MVH MV1C</item>
+		<item>日本MVS(J3)</item>
+		<item>自定义日本版</item>
+		<item>宇宙主板(黑客, 第2.3版)</item>
+		<item>宇宙主板(黑客, 第2.3版, 旧)</item>
+		<item>宇宙主板(黑客, 第2.2版)</item>
+		<item>宇宙主板(黑客, 第2.1版)</item>
+		<item>宇宙主板(黑客, 第2.0版)</item>
+		<item>宇宙主板(黑客, 第1.3版)</item>
+		<item>宇宙主板(黑客, 第1.2版)</item>
+		<item>宇宙主板(黑客, 第1.2版, 旧)</item>
+		<item>宇宙主板(黑客, 第1.1版)</item>
+		<item>宇宙主板(黑客, 第1.0版)</item>							
 	</string-array>
 			
 	<string-array name="pref_bios_values">
-	    <item></item>
+		<item></item>
 		<item>euro"</item>
 		<item>euro-s1</item>
-	    <item>us</item>
+		<item>us</item>
 		<item>us-e</item>
 		<item>asia</item>
-	    <item>japan</item>
+		<item>japan</item>
 		<item>japan-s2</item>
 		<item>japan-s1</item>
-	    <item>mv1c</item>
+		<item>mv1c</item>
 		<item>japan-j3</item>
 		<item>japan-hotel</item>
-	    <item>uni-bios_2_3</item>
+		<item>uni-bios_2_3</item>
 		<item>uni-bios_2_3o</item>
 		<item>uni-bios_2_2</item>
 		<item>uni-bios_2_1</item>
 		<item>uni-bios_2_0</item>
-	    <item>uni-bios_1_3</item>
+		<item>uni-bios_1_3</item>
 		<item>uni-bios_1_2</item>
 		<item>uni-bios_1_2o</item>
 		<item>uni-bios_1_1</item>
 		<item>uni-bios_1_0</item>
-	</string-array>
-	
-										
+	</string-array>									
 </resources>
